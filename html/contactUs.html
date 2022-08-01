@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <img src="../assets/img/images.png" alt="Hat of Charlie Chaplin">
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./biography.html">Biography</a></li>
+                <li><a href="./films.html">Films</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main class="main-contact-us">
+        <h2>Please fill out</h2>
+        <form action="" method="get">
+            <section>
+                <label for="firstName"></label>
+                <input id="firstName" type="text" placeholder="Enter your first name" name="firstName" required>
+            </section>
+            <section>
+                <label for="lastName"></label>
+                <input id="lastName" type="text" placeholder="Enter your last name" name="lastName" required>
+            </section>
+            <section>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </section>
+            <section>
+                <label for="phone"></label>
+                <input type="phone" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </section>
+            <section>
+                <legend>What is your gender?</legend>
+
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </section>
+            <section>
+                <legend>Please choose your favorite method of calling:</legend>
+                <div>
+                    <input type="checkbox" id="email" name="callingMethod" value="email">
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="phone" name="callingMethod" value="phone">
+                    <label for="email">Phone</label>
+                </div>
+            </section>
+            <section>
+                <button type="submit">Submit</button>
+            </section>
+        </form>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Made with ❤️ by <em>Mohammad Shariat</em></p>
+        <p>For more information Click<a href="https://en.wikipedia.org/wiki/Charlie_Chaplin" target="_blank"> here</a>
+        </p>
+        <p>Charlie Chaplin &copy 2022</p>
+    </footer>
+</body>
+
+</html>
