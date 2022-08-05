@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 a {
@@ -201,7 +201,7 @@ footer {
   padding: 5em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: baseline;
   flex-direction: column;
   border-radius: 20px;
   color: var(--secondary-color);
@@ -233,6 +233,7 @@ footer {
 .main-films > .container > section > h2 {
   text-shadow: 1px 1px 2px var(--primary-color), 0 0 1em,
     0 0 0.2em var(--secondary-color);
+  margin-bottom: 1em;
 }
 
 /* Media queries */
@@ -245,6 +246,6 @@ footer {
   }
 
   .main-films > .container > section > h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
